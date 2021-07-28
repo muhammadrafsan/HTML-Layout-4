@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+header{
+    background-color: deepskyblue;
+    height: 90px;
+    width: 100%;
+}
+.banner{
+    background-color: blueviolet;
+    height: 250px;
+    width: 100%;
+}
+.contents{
+    overflow: hidden;
+}
+.left_content{
+    background-color: lightgreen;
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+.middle_content{
+    background-color: skyblue;
+    height: 400px;
+    width: 60%;
+    float: left;
+}
+.middle_top1{
+    height: 200px;
+    float: left;
+    width: 50%;
+    background-color: dimgrey;
+}
+.middle_top2{
+    height: 200px;
+    float: right;
+    width: 50%;
+    background-color: yellowgreen;
+}
+.middle_bottom1{
+    height: 200px;
+    float: left;
+    width: 50%;
+    background-color: brown;
+}
+.middle_bottom2{
+    height: 200px;
+    float: right;
+    width: 50%;
+    background-color: palevioletred;
+}
+.right_content{
+    background-color: red;
+    height: 400px;
+    width: 20%;
+    float: left;
+}
+.client{
+    overflow: hidden;
+}
+.client1{
+    height: 100px;
+    width: 33.33%;
+    background-color: darkgray;
+    float: left;
+}
+.client2{
+    height: 100px;
+    width: 33.33%;
+    background-color: lavender;
+    float: left;
+}
+.client3{
+    height: 100px;
+    width: 33.33%;
+    background-color: indigo;
+    float: left;
+}
+footer{
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 100%;
+}
